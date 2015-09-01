@@ -1,5 +1,6 @@
 #!/bin/sh
 date=`date +%Y-%m-%d`
+time=`date`
 title="NONE"
 cate="NONE"
 layout="default"
@@ -29,11 +30,13 @@ if [ ! -d $file_dir ]; then
     exit -2
 fi
 
-file_name=$date"-"$title"."$type
+file_name=$date"-"${title/" "/"-"}"."$type
 echo "---
-layout: "$layout"
 title: "$title"
+date: "$time"
+layout: "$layout"
+categories:
+  - "$cate"
+tags:
 ---
-<h2>{{ page.title }}</h2>
-<p>I'm Leon, I'm AWESOME!!!</p>
-<p>{{ page.date | date_to_string }}</p>" > $file_dir"/"$file_name
+# WRITE SOMETHING" > $file_dir"/"$file_name
