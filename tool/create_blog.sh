@@ -1,25 +1,34 @@
 #!/bin/sh
 date=`date +%Y-%m-%d`
-title="BLANK"
+title="NONE"
+cate="NONE"
 layout="default"
-type="html"
+type="md"
 
 if [[ $# -gt 0 ]]; then
     title=$1
 fi
 if [[ $# -gt 1 ]]; then
-    layout=$2
+    cate=$2
 fi
 if [[ $# -gt 2 ]]; then
-    type=$3
+    layout=$3
+fi
+if [[ $# -gt 3 ]]; then
+    type=$4
 fi
 
-if [ ! -f "_layouts/"$layout"."$type ]; then
-    echo "bad layout: "$layout"."$type
-    exit -1;
+if [ ! -f "_layouts/"$layout".html" ]; then
+    echo "bad layout: "$layout
+    exit -1
 fi
 
-file_dir="./_posts"
+file_dir="all/"$cate"/_posts"
+if [ ! -d $file_dir ]; then
+    echo "bad category: "$cate
+    exit -2
+fi
+
 file_name=$date"-"$title"."$type
 echo "---
 layout: "$layout"
