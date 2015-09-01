@@ -3,7 +3,7 @@ date=`date +%Y-%m-%d`
 time=`date`
 title="NONE"
 cate="NONE"
-layout="default"
+layout="post"
 type="md"
 
 if [[ $# -gt 0 ]]; then
