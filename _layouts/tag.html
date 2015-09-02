@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="home">
-  <h2 class="blue">{{ page.tag }}</h2>
+  <h2 class="silver">{{ page.tag }}</h2>
   <ul class="posts">
     {% for post in site.tags[page.tag] %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a></li>
