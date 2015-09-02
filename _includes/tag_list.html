@@ -1,0 +1,11 @@
+{% unless page.tags == empty %}
+<div id="taglist">
+<b>tags: </b>
+<ul>
+    {% assign tags_list = page.tags %}
+    {% for tag in tags_list %}
+        <a href="/tags/{{ tag }}/" class="silver">{{ tag }}</a> 
+    {% endfor %}
+</ul>
+</div>
+{% endunless %}
