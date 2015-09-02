@@ -16,6 +16,16 @@
 <div id="content">  
   {{ content }}
 </div>
+{% unless page.tags == empty %}
+<b>tags: </b>
+<ul>
+    {% assign tags_list = page.tags %}
+    {% for tag in tags_list %}
+        <a href="/tags/{{ tag }}/">{{ tag }}</a> 
+    {% endfor %}
+</ul>
+{% endunless %}
+
 {% include shares.html %}
 {% include disqus.html %}
 {% include default_footer.html %}
