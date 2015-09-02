@@ -1,7 +1,7 @@
 {% unless page.tags == empty %}
 <div id="taglist">
 <ul>
-    <b>tags: </b>
+    <b>tags:  </b>
     {% assign tags_list = page.tags %}
     {% for tag in tags_list %}
         <a href="/tags/{{ tag }}/" class="silver">{{ tag }}</a> 
