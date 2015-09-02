@@ -1,7 +1,7 @@
 body {
 background: #373737;
 color:#e5e5e5;
-font:86% 'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
+font:86% 'LTCircular','lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
 line-height:1.2em;
 margin:0 auto;
 padding:0;
@@ -84,7 +84,7 @@ color: #ddd;
 font-size:0.95em;
 line-height: 1.4em;
 width: 650px;
-font-family: 'LTCircular',Arial,sans-serif,'lucida grande','lucida sans','lucida sans unicode',helvetica,tahoma;
+font-family: 'LTCircular','lucida grande','lucida sans','lucida sans unicode',helvetica,tahoma;
 padding: 5px;
 background-color:#FFB604;
 color:#222;
