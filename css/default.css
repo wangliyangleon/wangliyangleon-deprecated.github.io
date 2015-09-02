@@ -132,11 +132,11 @@ h1 a:hover { color:#fba919 ;}
 .silver { color: #cdcdc1; }
 
 
-a.blue:hover { color:#212121; background-color:#0383c9;text-decoration:none; }
-a.green:hover { color:#212121; background-color:#23af4c;text-decoration:none; }
-a.pink:hover { color:#212121; background-color:#f5a2c6;text-decoration:none; }
-a.orange:hover { color:#212121; background-color:#fba919;text-decoration:none; }
-a.silver:hover { font-style:italic; }
+a.blue:hover { color:#212121;background-color:#0383c9;text-decoration:none; }
+a.green:hover { color:#212121;background-color:#23af4c;text-decoration:none; }
+a.pink:hover { color:#212121;background-color:#f5a2c6;text-decoration:none; }
+a.orange:hover { color:#212121;background-color:#fba919;text-decoration:none; }
+a.silver:hover { font-style:italic;color:#cdcdc1; }
 .slogan a { padding:3px; line-height: 2.5em; }
 
 .commentslink { margin-bottom: 35px;display:block;border-bottom:solid 1px #dadada;padding-bottom:25px; }
