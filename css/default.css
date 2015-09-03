@@ -327,3 +327,9 @@ border:1px solid #bababa;
 margin:6px 18px 2px 5px;
 padding:2px;
 }
+
+#wechat {
+	clear:both
+	background: url('/images/wechat.png');
+	height: 250px; width:250px;
+}
