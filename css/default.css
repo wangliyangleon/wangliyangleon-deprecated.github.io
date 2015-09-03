@@ -329,7 +329,7 @@ padding:2px;
 }
 
 #wechat {
-	clear:both
+	clear:both;
 	background: url('/images/wechat.png');
 	height: 250px; width:250px;
 }
