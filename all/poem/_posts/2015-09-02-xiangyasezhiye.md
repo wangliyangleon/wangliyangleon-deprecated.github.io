@@ -8,7 +8,7 @@ tags:
   - sickness
   - Depression
 ---
-## 象牙色之夜
+## 象牙色之夜 ##
 夜越黑  
 楼越亮  
 象牙的颜色  
