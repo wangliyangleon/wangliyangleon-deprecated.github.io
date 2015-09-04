@@ -5,7 +5,8 @@ layout: post
 categories:
   - poem
 tags:
-  - nightmare
+  - sickness
+  - Depression
 ---
 ## 象牙色之夜
 夜越黑  

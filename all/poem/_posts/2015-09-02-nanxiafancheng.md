@@ -6,6 +6,7 @@ categories:
   - poem
 tags:
   - travel
+  - depression
 ---
 ## 南下，返程
 一闪而过的灯光，万里的荒凉  
