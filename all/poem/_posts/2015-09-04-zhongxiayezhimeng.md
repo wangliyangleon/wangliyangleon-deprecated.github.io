@@ -6,6 +6,7 @@ categories:
   - poem
 tags:
   - darkness
+  - crazy
   - travel
 ---
 ## 仲夏夜之梦
