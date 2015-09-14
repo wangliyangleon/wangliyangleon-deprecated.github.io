@@ -41,7 +41,7 @@ margin:4px 0 4px 10px;
 
 .posts { padding:0;}
 
-li { padding:0 4px; color:#ccc; margin: 1px 0px 7px 0px; }
+li { padding:0 4px; color:#ccc; margin: 0px 0px 3px 0px; }
 
 ul.posts li { margin: 0px; list-style: none; }
 ul.posts li span { float:right; font-family:monofur,monaco,courier; color:#888; }
