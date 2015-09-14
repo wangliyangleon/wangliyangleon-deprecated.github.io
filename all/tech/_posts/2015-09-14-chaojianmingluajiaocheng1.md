@@ -10,7 +10,7 @@ tags:
 ## Hello Wrold!
 直接在命令行中运行：
 	
-<pre class="brush: cpp;">
+<pre class="brush: bash;">
 ➜  luastudy  lua
 Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio
 > print("Hello World!")
@@ -19,7 +19,7 @@ Hello World!
 
 在文件中运行：
 
-<pre class="brush: cpp;">
+<pre class="brush: bash;">
 ➜  luastudy  cat hello.lua
 print("Hello World!")
 print("Hello World!");
@@ -30,7 +30,7 @@ Hello World!
 
 or：
 
-<pre class="brush: cpp;">
+<pre class="brush: bash;">
 ➜  luastudy  cat hello.lua
 #!/usr/local/bin/lua
 print("Hello World!")
