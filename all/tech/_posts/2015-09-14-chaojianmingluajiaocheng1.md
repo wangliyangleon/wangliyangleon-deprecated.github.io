@@ -134,7 +134,7 @@ true is true
 lua中的循环语句包括while / for / repeat-until  
 坑点：
 
-* lua中并不存在 += ++ -- 这样的运算符
+* lua中并不存在 += ++ ---- 这样的运算符
 * for index = start, end (, step)语句中，当step > 0（< 0）时，跳出条件为index > end（< end）（而非>=、<=）
 
 Test file *loop.lua*:
