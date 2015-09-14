@@ -46,6 +46,7 @@ li { padding:0 4px; color:#ccc; margin: 0px 0px 3px 0px; }
 ul.posts li { margin: 0px; list-style: none; }
 ul.posts li span { float:right; font-family:monofur,monaco,courier; color:#888; }
 ul.posts li a { font-weight:200; }
+ul.share_links li { list-style: none; }
 
 div#post ul li { list-style: circle; }
 
