@@ -19,7 +19,7 @@ text-decoration:none;
 
 a:hover {
 text-decoration:underline;
-color: #f5a2c6;
+color: #fba919;
 }
 
 a img {
@@ -41,7 +41,7 @@ margin:4px 0 4px 10px;
 
 .posts { padding:0;}
 
-li { padding:0 4px; color:#ccc; list-style: none; }
+li { padding:0 4px; color:#ccc; list-style: none; margin: 1px 0px 7px 0px; }
 
 ul.posts li span { float:right; font-family:monofur,monaco,courier; color:#888; }
 ul.posts li a { font-weight:200;}
