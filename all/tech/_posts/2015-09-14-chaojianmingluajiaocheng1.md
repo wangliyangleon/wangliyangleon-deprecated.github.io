@@ -188,8 +188,9 @@ sum_even = 2550
 ## if/else分支
 坑点：
 
-* !=什么鬼，在lua里是~=
-* && ||什么鬼，在lua里是and or
+* “不等于”是**~=**
+* “非”是**not**
+* 逻辑“与”和“或”是**and**和**or**
 
 Test file *ifelse.lua*:
 
