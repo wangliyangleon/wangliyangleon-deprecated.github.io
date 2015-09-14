@@ -41,6 +41,7 @@ or：
 * 数值只有64bit的double型，并不分int/float/double等等
 * 对于bool型，**只有false和nil**才是FALSE，数字0、空字符串等等都是TRUE
 
+Test file __variable.lua__:
 
 	➜  luastudy  cat variable.lua
 	-- 数值只有64bit的double型
