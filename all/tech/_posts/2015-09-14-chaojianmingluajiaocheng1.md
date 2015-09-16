@@ -307,4 +307,35 @@ Global 2
 nil
 </pre>
 
+## 函数
+
+坑点：
+
+* function也是一个基本数据类型，所以可以随便赋值给变量
+
+Test file *function.lua*:
+
+<pre class="brush: cpp;">
+function fib(n)
+    if n < 2 then
+        return 1
+    else
+        return fib(n - 1) + fib(n - 2)
+    end
+end
+
+funfib = fib
+
+print(fib(10))
+print(funfib(10))
+</pre>
+
+运行：
+
+<pre class="brush: bash;">
+➜  luastudy  lua function.lua
+89
+89
+</pre>
+
 ## TO BE CONTINUED
