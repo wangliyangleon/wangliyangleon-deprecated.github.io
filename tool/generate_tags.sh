@@ -9,5 +9,6 @@ do
     echo "---" > $index
     echo "layout: tag" >> $index
     echo "tag: $line" >> $index
+    echo "title: tag:$line" >> $index
     echo "---" >> $index
 done
